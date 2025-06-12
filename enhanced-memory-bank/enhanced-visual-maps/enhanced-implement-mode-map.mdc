@@ -1,0 +1,273 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# ENHANCED IMPLEMENT MODE: BEHAVIOR-VALIDATED IMPLEMENTATION MAP
+
+🚀 IMPLEMENT MODE WITH DEVELOPMENT DOCTRINE & REAL-TIME VALIDATION 🚀
+Implementation enhanced with behavior verification checkpoints and AI understanding validation
+
+> **TL;DR:** This enhanced implementation map integrates behavior-first workflow with real-time validation checkpoints to prevent AI/LLM errors during code implementation.
+
+## 🧭 ENHANCED IMPLEMENT MODE PROCESS FLOW
+
+```mermaid
+graph TD
+    Start["START IMPLEMENT MODE"] --> ReadDocs["Read Reference Documents<br>Core/command-execution.md<br>Core/development-doctrine-core.md"]
+    
+    %% Enhanced Initialization
+    ReadDocs --> CheckPrereqs["⛔ IMPLEMENTATION<br>PREREQUISITES CHECK"]
+    CheckPrereqs --> VerifyBehaviorSpecs["Verify Behavior<br>Specifications Complete"]
+    VerifyBehaviorSpecs --> VerifyAIUnderstanding["Verify AI Understanding<br>Documentation"]
+    VerifyAIUnderstanding --> VerifyStrategicTests["Verify Strategic Test<br>Points Defined"]
+    VerifyStrategicTests --> CheckLevel{"Determine<br>Complexity Level<br>from tasks.md"}
+    
+    %% Level 1 Enhanced Implementation
+    CheckLevel -->|"Level 1<br>Quick Bug Fix"| L1Process["LEVEL 1 PROCESS<br>Level1/quick-bug-workflow.md"]
+    L1Process --> L1BehaviorReview["⛔ BEHAVIOR REVIEW<br>CHECKPOINT"]
+    L1BehaviorReview --> L1Examine["Examine<br>Relevant Code"]
+    L1Examine --> L1BehaviorValidation["⛔ PRE-FIX BEHAVIOR<br>VALIDATION"]
+    L1BehaviorValidation --> L1Fix["Implement<br>Targeted Fix"]
+    L1Fix --> L1PostValidation["⛔ POST-FIX BEHAVIOR<br>VALIDATION"]
+    L1PostValidation --> L1Test["Test<br>Fix"]
+    L1Test --> L1Update["Update<br>tasks.md"]
+    
+    %% Level 2 Enhanced Implementation
+    CheckLevel -->|"Level 2<br>Simple Enhancement"| L2Process["LEVEL 2 PROCESS<br>Level2/enhancement-workflow.md"]
+    L2Process --> L2BehaviorReview["⛔ BEHAVIOR SPECIFICATION<br>REVIEW"]
+    L2BehaviorReview --> L2Examine["Examine Relevant<br>Code Areas"]
+    L2Examine --> L2StrategicTests["Review Strategic<br>Test Points"]
+    L2StrategicTests --> L2Implement["Implement Changes<br>with Checkpoints"]
+    L2Implement --> L2BehaviorValidation["⛔ IMPLEMENTATION BEHAVIOR<br>VALIDATION"]
+    L2BehaviorValidation --> L2Test["Test Changes<br>Against Strategic Points"]
+    L2Test --> L2Update["Update<br>tasks.md"]
+    
+    %% Level 3-4 Enhanced Implementation
+    CheckLevel -->|"Level 3-4<br>Feature/System"| L34Process["LEVEL 3-4 PROCESS<br>Level3/feature-workflow.md<br>Level4/system-workflow.md"]
+    L34Process --> L34Review["Review Plan &<br>Creative Decisions"]
+    L34Review --> L34BehaviorValidation["⛔ COMPREHENSIVE BEHAVIOR<br>SPECIFICATION REVIEW"]
+    L34BehaviorValidation --> L34Phase{"Creative Phase<br>Documents<br>Complete?"}
+    
+    L34Phase -->|"No"| L34Error["ERROR:<br>Return to CREATIVE Mode"]
+    L34Phase -->|"Yes"| L34DirSetup["Create Directory<br>Structure"]
+    L34DirSetup --> L34VerifyDirs["VERIFY Directories<br>Created Successfully"]
+    L34VerifyDirs --> L34Implementation["Build<br>Phase"]
+    
+    %% Enhanced Implementation Phases with Behavior Validation
+    L34Implementation --> L34Phase1["Phase 1<br>Build"]
+    L34Phase1 --> L34BehaviorCheck1["⛔ PHASE 1 BEHAVIOR<br>VALIDATION"]
+    L34BehaviorCheck1 --> L34VerifyFiles["VERIFY Files<br>Created Successfully"]
+    L34VerifyFiles --> L34Test1["Test Phase 1<br>Against Strategic Points"]
+    L34Test1 --> L34AIValidation1["⛔ AI UNDERSTANDING<br>CHECKPOINT"]
+    L34AIValidation1 --> L34Document1["Document<br>Phase 1"]
+    L34Document1 --> L34Next1{"Next<br>Phase?"}
+    L34Next1 -->|"Yes"| L34Implementation
+    
+    L34Next1 -->|"No"| L34Integration["Integration<br>Testing"]
+    L34Integration --> L34BehaviorIntegration["⛔ INTEGRATION BEHAVIOR<br>VALIDATION"]
+    L34BehaviorIntegration --> L34SystemValidation["⛔ SYSTEM-LEVEL<br>VALIDATION"]
+    L34SystemValidation --> L34Document["Document<br>Integration Points"]
+    L34Document --> L34Update["Update<br>tasks.md"]
+    
+    %% Enhanced Command Execution with Behavior Validation
+    L1Fix & L2Implement & L34Phase1 --> CommandExec["COMMAND EXECUTION<br>Core/command-execution.md<br>with Behavior Validation"]
+    CommandExec --> BehaviorPreCheck["⛔ PRE-COMMAND<br>BEHAVIOR CHECK"]
+    BehaviorPreCheck --> ExecuteCommand["Execute<br>Command"]
+    ExecuteCommand --> BehaviorPostCheck["⛔ POST-COMMAND<br>BEHAVIOR VALIDATION"]
+    BehaviorPostCheck --> DocCommands["Document Commands<br>& Results"]
+    
+    %% Enhanced Completion & Transition
+    L1Update & L2Update & L34Update --> VerifyComplete["Verify Build<br>Complete"]
+    VerifyComplete --> FinalBehaviorValidation["⛔ FINAL BEHAVIOR<br>VALIDATION"]
+    FinalBehaviorValidation --> SystemBehaviorTest["⛔ SYSTEM BEHAVIOR<br>VERIFICATION"]
+    SystemBehaviorTest --> UpdateProgress["Update progress.md<br>with Status"]
+    UpdateProgress --> Transition["NEXT MODE:<br>REFLECT MODE"]
+    
+    %% Style for Enhanced Checkpoints
+    style CheckPrereqs fill:#ff5555,stroke:#dd3333,color:white,stroke-width:3px
+    style L1BehaviorReview fill:#ff5555,stroke:#dd3333,color:white,stroke-width:3px
+    style L1BehaviorValidation fill:#ff5555,stroke:#dd3333,color:white,stroke-width:3px
+    style L1PostValidation fill:#ff5555,stroke:#dd3333,color:white,stroke-width:3px
+    style L2BehaviorReview fill:#ff5555,stroke:#dd3333,color:white,stroke-width:3px
+    style L2BehaviorValidation fill:#ff5555,stroke:#dd3333,color:white,stroke-width:3px
+    style L34BehaviorValidation fill:#ff5555,stroke:#dd3333,color:white,stroke-width:3px
+    style L34BehaviorCheck1 fill:#ff5555,stroke:#dd3333,color:white,stroke-width:3px
+    style L34AIValidation1 fill:#ff5555,stroke:#dd3333,color:white,stroke-width:3px
+    style L34BehaviorIntegration fill:#ff5555,stroke:#dd3333,color:white,stroke-width:3px
+    style L34SystemValidation fill:#ff5555,stroke:#dd3333,color:white,stroke-width:3px
+    style BehaviorPreCheck fill:#ff5555,stroke:#dd3333,color:white,stroke-width:3px
+    style BehaviorPostCheck fill:#ff5555,stroke:#dd3333,color:white,stroke-width:3px
+    style FinalBehaviorValidation fill:#ff5555,stroke:#dd3333,color:white,stroke-width:3px
+    style SystemBehaviorTest fill:#ff5555,stroke:#dd3333,color:white,stroke-width:3px
+```
+
+## 🔍 IMPLEMENTATION PREREQUISITES CHECKPOINT
+
+```mermaid
+graph TD
+    PrereqStart["Prerequisites<br>Checkpoint"] --> CheckBehavior["Check Behavior<br>Specifications"]
+    CheckBehavior --> BehaviorExists{"Behavior Specs<br>Complete?"}
+    BehaviorExists -->|"No"| BlockImpl["⛔ BLOCK IMPLEMENTATION<br>Return to PLAN Mode"]
+    BehaviorExists -->|"Yes"| CheckAI["Check AI Understanding<br>Documentation"]
+    CheckAI --> AIExists{"AI Understanding<br>Verified?"}
+    AIExists -->|"No"| BlockImpl
+    AIExists -->|"Yes"| CheckTests["Check Strategic<br>Test Points"]
+    CheckTests --> TestsExist{"Strategic Tests<br>Defined?"}
+    TestsExist -->|"No"| BlockImpl
+    TestsExist -->|"Yes"| PrereqPass["Prerequisites<br>Checkpoint Passed"]
+    
+    style PrereqStart fill:#4da6ff,stroke:#0066cc,color:white
+    style BehaviorExists fill:#ffa64d,stroke:#cc7a30,color:white
+    style AIExists fill:#ffa64d,stroke:#cc7a30,color:white
+    style TestsExist fill:#ffa64d,stroke:#cc7a30,color:white
+    style BlockImpl fill:#ff5555,stroke:#dd3333,color:white
+    style PrereqPass fill:#10b981,stroke:#059669,color:white
+```
+
+## ⚡ REAL-TIME BEHAVIOR VALIDATION PROCESS
+
+```mermaid
+graph TD
+    BehaviorStart["Behavior Validation<br>Triggered"] --> LoadSpec["Load Behavior<br>Specification"]
+    LoadSpec --> CurrentState["Assess Current<br>Implementation State"]
+    CurrentState --> CompareSpec["Compare Against<br>Expected Behavior"]
+    CompareSpec --> BehaviorMatch{"Behavior<br>Matches Spec?"}
+    BehaviorMatch -->|"No"| IdentifyGap["Identify Behavior<br>Gap"]
+    BehaviorMatch -->|"Yes"| BehaviorPass["Behavior Validation<br>Passed"]
+    IdentifyGap --> CorrectiveAction["Provide Corrective<br>Action Guidance"]
+    CorrectiveAction --> RetryValidation["Retry After<br>Correction"]
+    RetryValidation --> CompareSpec
+    
+    style BehaviorStart fill:#4da6ff,stroke:#0066cc,color:white
+    style BehaviorMatch fill:#ffa64d,stroke:#cc7a30,color:white
+    style IdentifyGap fill:#ff5555,stroke:#dd3333,color:white
+    style BehaviorPass fill:#10b981,stroke:#059669,color:white
+```
+
+## 🧠 AI UNDERSTANDING CHECKPOINT DURING IMPLEMENTATION
+
+```mermaid
+graph TD
+    AICheckStart["AI Understanding<br>Checkpoint"] --> CurrentContext["Assess Current<br>Implementation Context"]
+    CurrentContext --> GenerateQueries["Generate Context-Specific<br>Verification Queries"]
+    GenerateQueries --> ExecuteQueries["Execute Behavioral<br>Verification"]
+    ExecuteQueries --> AnalyzeResponse["Analyze AI<br>Understanding"]
+    AnalyzeResponse --> ContextDrift{"Context Drift<br>Detected?"}
+    ContextDrift -->|"Yes"| RestoreContext["Restore Context<br>and Re-verify"]
+    ContextDrift -->|"No"| UnderstandingCheck{"Understanding<br>Sufficient?"}
+    UnderstandingCheck -->|"No"| ProvideGuidance["Provide Clarifying<br>Guidance"]
+    UnderstandingCheck -->|"Yes"| AICheckPass["AI Understanding<br>Checkpoint Passed"]
+    RestoreContext --> ExecuteQueries
+    ProvideGuidance --> ExecuteQueries
+    
+    style AICheckStart fill:#4da6ff,stroke:#0066cc,color:white
+    style ContextDrift fill:#ff5555,stroke:#dd3333,color:white
+    style UnderstandingCheck fill:#ffa64d,stroke:#cc7a30,color:white
+    style AICheckPass fill:#10b981,stroke:#059669,color:white
+```
+
+## 📋 ENHANCED IMPLEMENTATION VALIDATION TEMPLATES
+
+### **Pre-Implementation Validation**
+```
+PRE-IMPLEMENTATION BEHAVIOR VALIDATION
+Component: [Component Name]
+
+Behavior Specification Review:
+□ Expected behavior clearly defined
+□ Success criteria documented
+□ Failure scenarios identified
+□ Integration points specified
+
+Strategic Test Points:
+□ Critical functionality tests defined
+□ Integration tests planned
+□ Edge case tests identified
+□ Performance validation criteria set
+
+AI Understanding Verification:
+□ AI understands component purpose
+□ AI recognizes implementation constraints
+□ AI aware of integration requirements
+□ AI understands validation criteria
+```
+
+### **During Implementation Validation**
+```
+IMPLEMENTATION BEHAVIOR CHECKPOINT
+Component: [Component Name]
+Implementation Progress: [Percentage]%
+
+Current Behavior Assessment:
+□ Basic structure matches specification
+□ Core functionality demonstrates expected behavior
+□ Integration points function as specified
+□ Error handling matches failure scenarios
+
+AI Understanding Check:
+□ AI maintains context awareness
+□ AI recognizes current implementation state
+□ AI understands remaining work
+□ AI aware of potential issues
+```
+
+### **Post-Implementation Validation**
+```
+POST-IMPLEMENTATION BEHAVIOR VALIDATION
+Component: [Component Name]
+
+Final Behavior Verification:
+□ All behavior specifications met
+□ Strategic test points pass
+□ Integration behavior confirmed
+□ Performance criteria satisfied
+□ Error handling validated
+
+System-Level Validation:
+□ Component integrates properly
+□ No behavioral regression introduced
+□ System behavior remains consistent
+□ Overall system goals supported
+```
+
+## 🔄 STRATEGIC TEST EXECUTION INTEGRATION
+
+```mermaid
+graph TD
+    TestExec["Strategic Test<br>Execution"] --> LoadTests["Load Strategic<br>Test Points"]
+    LoadTests --> PriorityTests["Prioritize Critical<br>Path Tests"]
+    PriorityTests --> ExecuteCore["Execute Core<br>Functionality Tests"]
+    ExecuteCore --> ExecuteIntegration["Execute Integration<br>Tests"]
+    ExecuteIntegration --> ExecuteEdge["Execute Edge Case<br>Tests"]
+    ExecuteEdge --> ValidateResults["Validate Test<br>Results"]
+    ValidateResults --> TestsPass{"All Strategic<br>Tests Pass?"}
+    TestsPass -->|"No"| IdentifyFailures["Identify Test<br>Failures"]
+    TestsPass -->|"Yes"| TestComplete["Strategic Testing<br>Complete"]
+    IdentifyFailures --> CorrectImplementation["Correct Implementation<br>Issues"]
+    CorrectImplementation --> LoadTests
+    
+    style TestExec fill:#4da6ff,stroke:#0066cc,color:white
+    style TestsPass fill:#ffa64d,stroke:#cc7a30,color:white
+    style IdentifyFailures fill:#ff5555,stroke:#dd3333,color:white
+    style TestComplete fill:#10b981,stroke:#059669,color:white
+```
+
+## ✅ ENHANCED IMPLEMENTATION VALIDATION
+
+**Enhanced Implementation Requirements Checklist:**
+□ Prerequisites checkpoint passed before implementation
+□ Behavior validation at each implementation phase
+□ AI understanding verified during implementation
+□ Strategic tests executed and passed
+□ Real-time behavior validation integrated
+□ System-level behavior verification completed
+□ Integration with existing Memory Bank maintained
+
+## 🔗 INTEGRATION WITH DEVELOPMENT DOCTRINE
+
+This enhanced IMPLEMENT mode integrates with:
+- **Development Doctrine Core**: Uses checkpoint-driven validation throughout implementation
+- **Behavior-First Workflow**: Implements real-time behavior validation
+- **Enhanced PLAN Mode**: Uses behavior specifications and strategic test points
+- **Existing IMPLEMENT Mode**: Enhances without breaking existing command execution
